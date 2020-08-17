@@ -5,7 +5,6 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-
     <!-- Title Page-->
     <title>Login</title>
 
@@ -29,3 +28,13 @@
 
     <!-- Main CSS-->
     <link href="<?php echo public_url();?>/css/theme.css" rel="stylesheet" media="all">
+
+        <!-- Datatables -->
+        <link href="vendor/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
+
+        <!-- Main CSS-->
+        <link href="css/theme.css" rel="stylesheet" media="all">

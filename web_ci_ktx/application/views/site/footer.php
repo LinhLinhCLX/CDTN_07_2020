@@ -1,25 +1,29 @@
-<!-- The box-footer-->        
-     <div id="footer_text"> <!-- The footer_text --> 
-	     <strong>Địa Chỉ : Số 16 - Đường Hoàng Quốc Việt- Quận Cầu Giấy - TP. Hà Nội.</strong>
-		 <p>Hỗ Chợi Khác Hàng 24/7. </p>
-		 <p>Video hướng dẫn: <a href="https://www.youtube.com/watch?list=PLml7xFCO5p8rlpbV-9bDdz74cCXQCmeDk&amp;v=YRyzBuA_O4A">Xem video</a></p>
-		 <p>Website: <a href="#"></a></p>
-		 <p>Fanpage: <a href="https://www.facebook.com/">https://www.facebook.com/</a></p>
-		 
-	 </div><!-- End footer_text -->
-	 
-	  <div id="footer_face">  <!-- The footer_face -->            
-	        <a title="trên facebook" target="_blank" href="https://www.facebook.com/nobitacnt" rel="nofollow">
-	             <img alt="trên facebook" src="<?php echo public_url();?>/site/images/facebook.png">
-	        </a>
-	         
-		    <a title="trên twitter" target="_blank" href="https://twitter.com/" rel="nofollow">
-		        <img alt="trên twitter" src="<?php echo public_url();?>/site/images/twitter.png">
-		    </a>
-		      
-		    <a title="trên google" target="_blank" href="https://plus.google.com/" rel="nofollow">
-		        <img alt="trên google" src="<?php echo public_url();?>/site/images/google.png">
-		    </a>   
-      </div><!-- End footer_face -->
-     <div class="clear"></div><!-- clear float -->
-<!-- End box-footer -->
+<div class="container">
+	 <div class="row">
+		 <div class="col-md-4 info-footer text-uppercase">
+			<h5 class="text-uppercase text-light">Thông tin</h5>
+			<p>Văn phòng: Nhà C – P202, 204</p>
+			<p>Điện thoại: 024 888889</p>
+			<p>Email: ktxhnue@.edu.vn</p>
+		 </div>
+		 <div class="col-md-4 info-footer text-uppercase">
+			<h5 class="text-light">liên kết</h5>
+			<p><a href="#">Bộ giáo dục và đào tạo</a> </p>
+			<p><a href="#">đoàn thanh niên</a> </p>
+			<p><a href="#">đảng cộng sản việt nam</a> </p>
+		 </div>
+		 <div class="col-md-4 info-footer text-uppercase">
+			<h5 class="text-light">Chia sẻ</h5>
+			<a href="#"><i class="fab fa-pinterest-square"></i></a>
+			<a href="#youtube"><i class="fab fa-youtube"></i></a>
+			<a href="#facebook-square"><i class="fab fa-facebook-square"></i></a>
+			<a href="#google-plus"><i class="fab fa-google-plus"></i></a>
+			<a href="#skype"><i class="fab fa-skype"></i></a>
+			<a href="#phone"><i class="fas fa-phone"></i></a>
+		 </div>
+	 </div>
+	<hr class="line-footer">
+</div>
+<div class="col-12 copyright">
+	© Copyright 2019|Trường Đại Học Sư Phạm Hà Nội
+</div>

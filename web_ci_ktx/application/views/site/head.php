@@ -1,71 +1,13 @@
-        <meta http-equiv="Content-Type" content="text/html ;charset=utf-8">
-        <!-- the bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <!-- End bootstrap -->
-        <!-- the CSS -->
-        <link type="text/css" href="<?php echo public_url();?>site/css/reset.css" rel="stylesheet">
-        <link type="text/css" href="<?php echo public_url();?>site/css/style.css" rel="stylesheet">
-        <link type="text/css" href="<?php echo public_url();?>site/css/menu.css" rel="stylesheet">
-        <link type="text/css" href="<?php echo public_url();?>site/css/input.css" rel="stylesheet">
-        <link type="text/css" href="<?php echo public_url();?>site/css/product.css" rel="stylesheet">
-        <link type="text/css" href="<?php echo public_url();?>site/css/slide-flim.css" rel="stylesheet">
-        <!-- End CSS -->
-        
-        <!-- the Javascript -->
-    
-        <script type="text/javascript" src="<?php echo public_url();?>js/jquery/jquery.min.js"></script>
-		<script type="text/javascript" src="<?php echo public_url();?>js/jquery/jquery-ui.min.js"></script>
-	<link rel="stylesheet" href="<?php echo public_url();?>js/jquery/jquery-ui/custom-theme/jquery-ui-1.8.21.custom.css" type="text/css">
-	    
-        <script src="<?php echo public_url();?>/site/js/script.js"></script>
-        
-        <!-- raty -->
-		 <script type="text/javascript" src="<?php echo public_url();?>site/raty/jquery.raty.min.js"></script>
-		 <script type="text/javascript">
-	      $(function() {
-	         $.fn.raty.defaults.path = '<?php echo public_url();?>site/raty/img';
-	         $('.raty').raty({
-	          	  score: function() {
-	          	    return $(this).attr('data-score');
-	          	  },
-	              readOnly  : true,
-	          });
-	      });
-	     </script>
-	     <style>.raty img{width:16px !important;height:16px; !important;}</style>
-	     <!--End raty -->
-     
-        <!-- End Javascript -->
-        <script type="text/javascript">
-	        $(document).ready(function(){
-		        $('#back_to_top').click(function() {
-		            $('html, body').animate({scrollTop:0},"slow");
-		       });
-		       // go top
-		       $(window).scroll(function() {
-		            if($(window).scrollTop() != 0) {
-		                $('#back_to_top').fadeIn();
-		            } else {
-		                $('#back_to_top').fadeOut();
-		            }
-		       });
-	        });
-		</script>
-		<style>
-		#back_to_top {
-		    bottom: 10px;
-		    color: #666;
-		    cursor: pointer;
-		    padding: 5px;
-		    position: fixed;
-		    right: 55px;
-		    text-align: center;
-		    text-decoration: none;
-		    width: auto;
-		}
-		</style>
-		
-		        <title>website</title>   
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Quản Lý Ký Túc Xá - Trang chủ</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="<?php echo view_theme() ?>css/font-face.css" rel="stylesheet" media="all">
+<link href="<?php echo view_theme() ?>vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+<link href="<?php echo view_theme() ?>vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+<link href="<?php echo view_theme() ?>vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="<?php echo view_theme() ?>css/bootstrap.min(1).css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="<?php echo view_theme() ?>css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo view_theme() ?>css/all.css">
+<link rel="stylesheet" href="<?php echo view_theme() ?>css/header_footer.css">
+<link rel="stylesheet" href="<?php echo view_theme() ?>css/content-homepage.css">
